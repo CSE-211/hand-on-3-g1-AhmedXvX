@@ -1,0 +1,126 @@
+<!--Ahmed Abdelazim         223107337-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>My Full HTML Page Challenge</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background-color: #f7f7f7;
+                color: #333;
+            }
+
+            header, footer {
+                text-align: center;
+                background-color: #0da2cc;
+                color: white;
+                padding: 15px;
+                border-radius: 10px;
+            }
+
+            div {
+                margin: 20px 0;
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+            .highlight {
+                color: #6eb819;
+                font-weight: bold;
+            }
+
+            figure {
+                text-align: center;
+            }
+
+            img {
+                max-width: 300px;
+                border-radius: 10px;
+            }
+
+            video, audio {
+                display: block;
+                margin: 15px auto;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="intro">
+            <h1>Welcome to My HTML Full Page Challenge</h1>
+            <p>Ahmed Abdelazim         223107337</p>
+        </header>
+
+        <div id="about-me">
+            <h2>About Me</h2>
+            <p>
+                Hello! I’m Ahmed, and this webpage demonstrates my HTML skills.
+            </p>
+        </div>
+
+        <div id="photo">
+            <h2>Avatar Image</h2>
+            <figure>
+                <img src="Avatar.jpeg" alt="Sample Avatar Photo">
+                <figcaption>Avatar Photo
+                    <a href="https://avatar.iran.liara.run/public/45" target="_blank">URL</a>.
+                </figcaption>
+            </figure>
+        </div>
+
+        <div id="video">
+            <h2>HTML in 100 Seconds</h2>
+            <p>Below is a public-domain video with subtitles to demonstrate embedding and accessibility.</p>
+            <video controls width="480">
+                <source src="HTML%20in%20100%20Seconds.mp4" type="video/mp4">
+                <track src="HTML%20in%20100%20Seconds.vtt" kind="subtitles" srclang="en" label="English" default>
+            </video>
+        </div>
+
+        <div id="audio">
+            <h2>Audio Track</h2>
+            <p>Here’s an example of an audio playback</p>
+            <audio controls>
+                <source src="HTML%20in%20100%20Seconds.weba" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div id="lists">
+            <h2>Lists</h2>
+            <h3>List of courses I Study in the current semester:</h3>
+            <dl class="highlight">
+                <dt>CSE 211</dt>
+                <dd>Web Programming</dd>
+
+                <dt>CSE 233</dt>
+                <dd>Operating Systems</dd>
+
+                <dt>CSE 241</dt>
+                <dd>Security of Information Systems</dd>
+
+                <dt>CSE 261</dt>
+                <dd>Computer Networks</dd>
+
+                <dt>AIE 111</dt>
+                <dd>Artificial Intelligence</dd>
+
+            </dl>
+            <h3>Ordered List:</h3>
+            <ol>
+                <li>Plan the day</li>
+                <li>Work on projects</li>
+                <li>Relax and learn</li>
+            </ol>
+        </div>
+
+        <footer id="footer">
+            <p>&copy; Ahmed Abdelazim 223107337</p>
+        </footer>
+    </body>
+</html>

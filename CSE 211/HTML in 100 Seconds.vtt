@@ -1,0 +1,221 @@
+WEBVTT
+
+00:00:00.160 --> 00:00:03.639
+hypertext markup language or HTML is a
+
+00:00:03.639 --> 00:00:05.640
+language that defines the structure of
+
+00:00:05.640 --> 00:00:07.520
+content on a web page development
+
+00:00:07.520 --> 00:00:10.719
+started in 1989 at CERN by Tim burner
+
+00:00:10.719 --> 00:00:12.320
+Lee who had just invented the world's
+
+00:00:12.320 --> 00:00:14.519
+first web browser worldwide web the
+
+00:00:14.519 --> 00:00:17.840
+origin of www but he needed a publishing
+
+00:00:17.840 --> 00:00:19.880
+language to display content within it so
+
+00:00:19.880 --> 00:00:22.199
+he chose a syntax based on the standard
+
+00:00:22.199 --> 00:00:24.279
+generalized markup language which uses
+
+00:00:24.279 --> 00:00:26.080
+opening and closing tags to provide
+
+00:00:26.080 --> 00:00:28.519
+meaning to otherwise unorganized text
+
+00:00:28.519 --> 00:00:31.000
+like H for heading p for paragraph and
+
+00:00:31.000 --> 00:00:33.719
+most importantly a for anchor to link to
+
+00:00:33.719 --> 00:00:35.239
+a different web page the language
+
+00:00:35.239 --> 00:00:36.760
+underwent many changes during the
+
+00:00:36.760 --> 00:00:38.320
+initial rise of the internet and was
+
+00:00:38.320 --> 00:00:41.239
+standardized as HTML 5 in 2008 the
+
+00:00:41.239 --> 00:00:43.120
+version we know and love today modern
+
+00:00:43.120 --> 00:00:45.719
+HTML contains tags to handle a variety
+
+00:00:45.719 --> 00:00:47.840
+of different media types like video
+
+00:00:47.840 --> 00:00:50.399
+audio and canvas to draw custom graphics
+
+00:00:50.399 --> 00:00:52.760
+on the Fly the typical HTML element
+
+00:00:52.760 --> 00:00:55.039
+starts with an opening and closing tag
+
+00:00:55.039 --> 00:00:56.800
+in the middle we have content which
+
+00:00:56.800 --> 00:00:58.920
+might be text or additional HTML
+
+00:00:58.920 --> 00:01:01.239
+elements called children the opening tag
+
+00:01:01.239 --> 00:01:03.320
+may also have one or more attributes
+
+00:01:03.320 --> 00:01:04.960
+which are key value pairs that can
+
+00:01:04.960 --> 00:01:07.000
+customize the appearance or behavior of
+
+00:01:07.000 --> 00:01:08.960
+the element to build your first web page
+
+00:01:08.960 --> 00:01:10.640
+create a file named
+
+00:01:10.640 --> 00:01:12.720
+index.html this file contains a
+
+00:01:12.720 --> 00:01:14.799
+hierarchy of nodes based on the document
+
+00:01:14.799 --> 00:01:17.439
+object model or Dom a web page starts
+
+00:01:17.439 --> 00:01:19.920
+with an HTML tag and has exactly two
+
+00:01:19.920 --> 00:01:22.680
+children a head and a body the head
+
+00:01:22.680 --> 00:01:24.240
+contains things that aren't directly
+
+00:01:24.240 --> 00:01:26.840
+shown in the web page like a title or a
+
+00:01:26.840 --> 00:01:29.360
+meta tag to give the page a description
+
+00:01:29.360 --> 00:01:31.200
+but notice how The Meta element has no
+
+00:01:31.200 --> 00:01:33.399
+closing tag closing tags are generally
+
+00:01:33.399 --> 00:01:35.079
+optional when an element is fully
+
+00:01:35.079 --> 00:01:37.119
+self-contained the body contains the
+
+00:01:37.119 --> 00:01:39.280
+actual UI for the end user we might
+
+00:01:39.280 --> 00:01:41.320
+start with an H1 heading followed by a
+
+00:01:41.320 --> 00:01:43.640
+paragraph of content to add an image we
+
+00:01:43.640 --> 00:01:45.640
+use an image tag which you'll notice is
+
+00:01:45.640 --> 00:01:47.640
+self closing then Define The Source
+
+00:01:47.640 --> 00:01:49.960
+attribute as the file path to the image
+
+00:01:49.960 --> 00:01:50.960
+and you'll want to give it an ALT
+
+00:01:50.960 --> 00:01:52.680
+description to make it accessible to
+
+00:01:52.680 --> 00:01:54.680
+robots and Screen readers what makes web
+
+00:01:54.680 --> 00:01:56.280
+pages revolutionary though is their
+
+00:01:56.280 --> 00:01:58.320
+ability to link to other web pages on
+
+00:01:58.320 --> 00:02:00.200
+the information Super Highway use an
+
+00:02:00.200 --> 00:02:02.159
+anchor tag to create a link then Define
+
+00:02:02.159 --> 00:02:04.360
+the hre attribute as the web page that
+
+00:02:04.360 --> 00:02:06.240
+you want to navigate to when clicked
+
+00:02:06.240 --> 00:02:08.679
+HTML also provides structural tags like
+
+00:02:08.679 --> 00:02:11.160
+division or div which are often used to
+
+00:02:11.160 --> 00:02:12.640
+group elements together where they can
+
+00:02:12.640 --> 00:02:14.760
+be styled to represent complex UI
+
+00:02:14.760 --> 00:02:16.480
+elements like navb bars when you're
+
+00:02:16.480 --> 00:02:18.160
+happy with your code grab the full file
+
+00:02:18.160 --> 00:02:20.640
+path to the HTML file and paste it into
+
+00:02:20.640 --> 00:02:22.879
+any web browser congratulations you just
+
+00:02:22.879 --> 00:02:24.800
+built your first website this has been
+
+00:02:24.800 --> 00:02:27.440
+hypertext markup language in 100 seconds
+
+00:02:27.440 --> 00:02:28.840
+hit the Subscribe button so you don't
+
+00:02:28.840 --> 00:02:30.640
+miss the upcoming sequence thanks for
+
+00:02:30.640 --> 00:02:32.519
+watching and I will see you in the next
+
+00:02:32.519 --> 00:02:35.360
+one
+
